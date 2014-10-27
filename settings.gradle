@@ -15,4 +15,4 @@
  */
 
 include ':openiab'
-include ':trivialdrive'
+include ':samples:trivialdrive'

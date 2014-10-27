@@ -28,6 +28,5 @@ public class StubTest {
     @Test
     public void testStub() {
         System.out.print("Test stub");
-        throw new IllegalStateException();
     }
 }
