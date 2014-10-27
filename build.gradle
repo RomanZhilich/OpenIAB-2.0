@@ -22,13 +22,11 @@ task wrapper(type: Wrapper) {
 buildscript {
     repositories {
         jcenter()
-//        maven {url 'http://maven.yandex.net/nexus-mirror/content/repositories/yandex_mobile_snapshots'}
     }
 
     dependencies {
         classpath 'com.android.tools.build:gradle:0.13.2'
         classpath 'org.robolectric:robolectric-gradle-plugin:0.13.2'
-//        classpath 'com.yandex.android.tools:codequality:0.9-SNAPSHOT'
     }
 }
 

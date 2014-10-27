@@ -16,7 +16,6 @@
 
 apply plugin: 'com.android.library'
 apply plugin: 'robolectric'
-//apply plugin: 'codequality'
 
 android {
     compileSdkVersion project.compileSdkVersion
