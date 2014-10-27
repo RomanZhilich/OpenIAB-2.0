@@ -14,5 +14,20 @@
  * limitations under the License.
  */
 
-include ':openiab'
-include ':trivialdrive'
+package org.onepf.openiab;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.robolectric.RobolectricTestRunner;
+import org.robolectric.annotation.Config;
+
+@Config(emulateSdk = 18, manifest = Config.NONE)
+@RunWith(RobolectricTestRunner.class)
+public class StubTest {
+
+    @Test
+    public void testStub() {
+        System.out.print("Test stub");
+        throw new IllegalStateException();
+    }
+}

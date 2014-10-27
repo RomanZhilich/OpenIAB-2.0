@@ -17,8 +17,7 @@
 
 <resources>
 
-    <string name="app_name">OpenIAB-2.0</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">TrivialDrive</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
